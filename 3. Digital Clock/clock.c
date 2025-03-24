@@ -25,7 +25,7 @@ int main()
 
 void clearscreen() {
     #ifdef _WIN32
-    system("cls");
+    system("clear");
     #else
     system("clear");
     #endif
